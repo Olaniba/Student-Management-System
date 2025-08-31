@@ -1,0 +1,33 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student MAnagement System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Student Management System</h1>
+        </header>
+        
+        <div class="input-section">
+            <input type="text" id="nameInput" placeholder="Name" maxlength="100">
+            <input type="number" id="ageInput" placeholder="Age" >
+            <input type="text" id="gradeInput" placeholder="Grade">
+            <button id="addBtn">Add Task</button>
+        </div>
+        
+        <div class="student-section">
+            <ul id="studentList"></ul>
+        </div>
+        
+        <div class="stats">
+            <span id="studentCount">0 students</span>
+        </div>
+    </div>
+    
+   <script src="index.js"></script>
+</body>
+</html>
